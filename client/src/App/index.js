@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //importing login
 import withAuthentication from '../components/login/Session/withAuthentication';
@@ -29,6 +29,7 @@ import HomePage from '../pages/Home';
 const App = () =>
   <Router>
     <div className="app">
+        <Switch>
 
         <Route exact path={routes.PASSWORD_FORGET} component={() => <PasswordForgetPage />} />
         <Route exact path={routes.HELPFULLINKS} component={() => <HelpfulLinks />} />
@@ -42,7 +43,7 @@ const App = () =>
 
         {/*  <Route exact path={routes.} component={() => < />} />
         <Route exact path={routes.} component={() => < />} /> */}
-       
+        </Switch>
 
 
     </div>
