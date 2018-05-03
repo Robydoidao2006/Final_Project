@@ -9,8 +9,9 @@ export const HOME = '/home';
 export const LANDING = '/landing';
 export const ABOUTUS = '/Aboutus';
 export const HELPFULLINKS = '/HelpfulLinks';
+export const  NOMATCH = '/NoMatch';
 
-// export const  = '/';
+
 // export const  = '/';
 // export const  = '/';
 

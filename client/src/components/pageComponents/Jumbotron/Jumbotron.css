@@ -8,7 +8,16 @@
   
   .jumbotron {
     width: 100%;
+    padding-bottom: 250px;
     background: transparent;
     margin-top: 80px;
     
   }
+
+
+  /* 600px or less for  phones. */
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+      padding-bottom: 50px;
+  }
+}     

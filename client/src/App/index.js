@@ -16,7 +16,9 @@ import * as routes from '../constants/routes';
 import HelpfulLinks from '../pages/HelpfulLinks';
 import LandingPage from '../pages/Landing';
 import Aboutus from '../pages/Aboutus';
+import NoMatch from '../pages/NoMatch';
 import HomePage from '../pages/Home';
+
 
 // import  from '../pages/';
 // import  from '../pages/';
@@ -36,9 +38,9 @@ const App = () =>
         <Route exact path={routes.SIGN_IN} component={() => <SignInPage />} />
         <Route exact path={routes.ABOUTUS} component={() => <Aboutus />} />
         <Route exact path={routes.HOME} component={() => <HomePage />} />
+        <Route component={NoMatch}/>
 
-        {/* <Route exact path={routes.} component={() => < />} />
-        <Route exact path={routes.} component={() => < />} />
+        {/*  <Route exact path={routes.} component={() => < />} />
         <Route exact path={routes.} component={() => < />} /> */}
        
 
