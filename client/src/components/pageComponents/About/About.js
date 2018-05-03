@@ -1,0 +1,21 @@
+import React from "react";
+import "./About.css";
+
+
+const About = () => (
+
+<div className="containerHistory" id="History">
+
+    <h1>GENDOCRINE NURSES SOCIETY:</h1> 
+        <h1>HOW IT ALL BEGAN</h1>
+            <ul>
+                <li><p>by Linda C. Pachucki-Hyde, MS, RN, CDE</p></li> <br/>
+                <li><p>Today the Endocrine Nurses Society (ENS) is a national organization with 108 members. In 1988, however, it was only a desire to find more support for nurses interested in endocrinology. At that time the National Institutes of health (NIH) had several nursing units devoted to endocrinology. However, the NIH seemed unique in its endocrine nursing specialization. While there were some subspecialty nursing groups (American Association of Diabetes Educators [AADE]. Reproductive Nurses Association, and Pediatric Endocrine Nurses Society), there was not one umbrella organization of endocrine nurses. Thus began the mission of Teresa Choate-Loriaux (Terri). While working at the NIH, Terri began by looking at other endocrine groups. First she researched how other subspecialty endocrine nursing groups functioned, what their goals were and how they stimulated interest. The Endocrine Society was the next logical place to seek support. Fortunately timing, which can mean so much, was right. At this time the Endocrine Society was in the process of broadening its mission to more fully support the needs of the clinician. The formation of the ENS clearly provided that kind of support. In 1989, the Endocrine Society, working with Terri, distributed a flyer about the ENS in the registration packet of members attending the annual meeting. The plan was to have endocrinologists take the information home to share with the nurses who worked with them. The plan worked! During the next year, Terri continued gathering information, contacting endocrine nursing groups and working with the Endocrine Society. By the summer of 1990, the first newsletter was published and the first business meeting of the ENS took place in Atlanta, in conjunction with the Endocrine Society meetings. Seven people (Nancy Alexander Doelle, Linda Haas, Saundra Hendricks, Catherine Garafano, Teresa Choate-Loriaux, Barbara Solomon and Victoria Turbini) became the core of what we have today. Together they formulated goals and strategies to develop the ENS into a truly professional nursing organization. In 1990-91, Betsy Love and Terri planned the first ENS Symposium. Expectations were small but the realization was remarkable. Eighty-two nurses registered to attend the first ENS Symposium in Washington DC in 1991. It was now obvious that there was a real need for the ENS. Once again, much assistance was received from the Endocrine Society. They mailed the registration forms with their annual meeting registration materials to all members. They also provided the meeting rooms and a booth in the exhibit hall. The speakers, who came from the Endocrine Society membership, volunteered their time. By now everyone was very busy. By-laws were written and standing committees were established. However, the committees had chairpersons without committee members and the work continued to be done by a few-except now there were a few more. In 1992, the ENS grew to organization status. Once again, in conjunction with the Endocrine Society, a symposium was held and attended by 150. This time, however, it included three half days of presentations - by nurses and physicians. A professional poster session was also included. At the business meeting, new committee chairpersons were named and members volunteered to serve on those committees. ENS Moves Forward:</p></li><br/>
+                <li><p>In response to your comments that you have asked questions but nobody answered we established an email account that is monitored regularly by Board Members. endocrinenurses@gmail.com</p></li>
+                <li><p>For any questions,  <a href="" target="_blank">contact us here.</a></p></li>
+            </ul>
+</div>
+
+);
+
+export default About;

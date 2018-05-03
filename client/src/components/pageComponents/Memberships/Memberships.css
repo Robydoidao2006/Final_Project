@@ -1,0 +1,52 @@
+.bioText{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+#memberships{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:100%;
+    margin-top: 30px;
+    padding: 50px;
+  }
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 4px;
+    text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+  }
+
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #6a6d72;
+  }
+  .nav-tabs {
+    color:#2d2d30;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* text-shadow: -1px 0px 10px rgba(0, 0, 0, 1); */
+  }
+
+.bioPic{
+    float:left;
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .bioPic{
+        width: 150px;
+        height: 150px;
+
+    }
+    /* .bioText{
+      margin-top: 20px;
+    } */
+  }

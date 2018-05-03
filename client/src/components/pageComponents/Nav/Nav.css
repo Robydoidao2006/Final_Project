@@ -1,0 +1,77 @@
+
+/* changes logo size and */
+.navbar-brand{
+    width:40px;
+    height: 40px;
+    padding: 0px;
+    margin: 5px 10px 0px 10px;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: #2d2d30;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    width: 100%;
+    font-family:'Roboto Slab', serif;
+    text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+
+}
+
+/* changes words color of navbar */
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+}
+/* changes words color on hover */
+.navbar-nav li a:hover {
+    color: #777 !important;
+}
+/* changes the current active button color */
+.navbar-nav li.active a {
+    color: #777 !important;
+    background: white !important;
+}
+/* changes the button dropdown menu once in table mode */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-toggle{
+    width: 45px;
+}
+.open .dropdown-toggle {
+    color: white;
+    background-color: #555 !important;
+}
+
+/* changes color of words on dropdown menu */
+.dropdown-menu li a {
+    color: white !important;
+    background: #777;
+}
+/* changes color of background on dropdown hover menu in table mode */
+.dropdown-menu li a:hover {
+    background-color: white !important;
+    opacity: 0.7;
+}
+
+.dropdown-menu{
+    padding: 0px;
+}
+
+
+/* 600px or less for  phones. */
+@media only screen and (max-width: 768px) {
+    .navbar-collapse  {
+        margin-top: 50px;
+    }
+}     
+
+
+
+
